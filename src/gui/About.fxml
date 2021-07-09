@@ -26,5 +26,10 @@
             <Insets left="20.0" />
          </padding>
       </Label>
+      <Label layoutX="10.0" layoutY="74.0" text="v2.448">
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </Label>
    </children>
 </VBox>

@@ -9,4 +9,5 @@ module Workshop {
 	opens gui.util to javafx.fxml, javafx.graphics;
 	opens gui to javafx.fxml, javafx.graphics;
 	opens application to javafx.graphics, javafx.fxml;
+	opens model.entities to javafx.base;
 }

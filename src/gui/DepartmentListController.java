@@ -109,6 +109,7 @@ public class DepartmentListController<Integer> implements Initializable, DataCha
 			dialogStage.initModality(Modality.WINDOW_MODAL);
 			dialogStage.showAndWait();
 		} catch (IOException e) {
+			e.printStackTrace();
 			Alerts.showAlert("IO Exception", "Erro ao Carregar!", e.getMessage(), AlertType.ERROR);
 		}
 	}
